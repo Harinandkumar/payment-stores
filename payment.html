@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script>
+        window.onload = function() {
+            payWithPhonePe(50);
+        };
+    </script>
+    <style>
+        footer {
+background-color: #191717;
+text-align: center;
+padding: 10px;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+font-size: 14px;
+color: white;
+}
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Payment section</legend>
+            <div class="container1">
+                <div class="image">
+                    <img src="upi_payment_qr_code_golgappa_store.png" height="200px" alt="QR Code for Golgappa Store" />
+                    <p style="text-align:center; font-weight:bold;">Golgappa Store</p>
+                </div>
+                <br />
+                <div class="name">
+                    <label for="addd">Name: &nbsp;&nbsp;&nbsp; </label>
+                    <input type="text" id="addd" />
+                </div>
+                <div class="addre">
+                    <label for="add">Address:</label>
+                    <input type="text" id="add" />
+                </div>
+                <div class="file">
+                    <label for="file">Upload screenshot of payment</label>
+                    <input type="file" id="file">
+                </div>
+                <div class="btn">
+                    <button type="button" id="btn1" >Submi</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+
+        <p class="text-center">For any issues related to Golgappas, please contact the Golgappa seller. We are here only for technical support. </p>
+        <p>Website developed by Harinand Singh. For technical support, contact 9709801718.</p>
+    </footer>
+</body>
+</html>

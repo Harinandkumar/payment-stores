@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+	font-family: 'Arial', sans-serif;
+	line-height: 1.6;
+	background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+	color: #333;
+	padding-top: 56px;
+  }
+  
+  /* Navbar Styles */
+  #nav-bar .navbar {
+    background-color: #85FFBD !important;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%) !important;
+    
+	padding: 1rem 2rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #nav-bar .navbar-brand img {
+	width: 150px;
+  }
+  
+  #nav-bar .navbar-nav .nav-link {
+	color: #333;
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+  }
+  
+  #nav-bar .navbar-nav .nav-link:hover {
+	color: #007bff;
+  }
+  
+  #nav-bar .navbar-toggler {
+	border: none;
+  }
+  
+  /* Carousel Styles */
+  #carosel-fluid .carousel-inner img {
+	height: 500px;
+	object-fit: cover;
+  }
+  
+  #banner {
+	padding: 60px 0;
+	background: #f8f9fa;
+  }
+  
+  #banner .promo-title {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #007bff;
+  }
+  
+  #banner .btn-primary {
+	background: #007bff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+  }
+  
+  #banner .btn-primary:hover {
+	background: #0056b3;
+  }
+  
+  /* Product Section Styles */
+  #product .card {
+	margin-bottom: 2rem;
+  }
+  
+  #product .card img {
+	height: 200px;
+	object-fit: cover;
+  }
+  
+  #product .card-title {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+  }
+  
+  #product .card-text {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #007bff;
+  }
+  
+  #product .btn-primary {
+	background: #007bff;
+	border: none;
+  }
+  
+  #product .btn-primary:hover {
+	background: #0056b3;
+  }
+  
+  /* Products Section Styles */
+  #products .card {
+	margin-bottom: 2rem;
+  }
+  
+  #products .card img {
+	height: 200px;
+	object-fit: cover;
+  }
+  
+  #products .card-title {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+  }
+  
+  #products .card-text {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #007bff;
+  }
+  
+  #products .btn-primary {
+	background: #007bff;
+	border: none;
+  }
+  
+  #products .btn-primary:hover {
+	background: #0056b3;
+  }
+  
+  /* Footer Styles */
+  #footer {
+	background: #343a40;
+	color: #fff;
+	padding: 2rem 0;
+  }
+  
+  #footer .container img {
+	width: 100px;
+	margin-bottom: 1rem;
+  }
+  
+  #footer h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+  }
+  
+  #footer p {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+  }
+  
+  #footer a {
+	color: #007bff;
+	text-decoration: none;
+  }
+  
+  #footer a:hover {
+	color: #0056b3;
+  }
+  
+  #footer .copyright {
+	margin-top: 1rem;
+	font-size: 0.9rem;
+	color: #ccc;
+  }
+  
+  .bottom-img {
+	width: 100%;
+	margin-top: -20px;
+  }
+  
+  .carousel-item img{
+   max-height: 500px;
+   
+    max-width: 100%;
+  }
+  #btn1{
+    background-color: #007bff;
+    border: none;
+    padding: 4px 12px;
+    color: white;
+    border-radius: 4px;
+  }
+  .container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+
+
+  /* underlineanimation */
+
+  .nav-item a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+ .nav-item a:hover {
+  color: #000;
+}
+
+.nav-item a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: salmon;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.nav-item a:hover::before {
+  transform: scaleX(1);
+}
